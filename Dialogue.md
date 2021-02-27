@@ -1,5 +1,3 @@
-# Dialogue System
-
 ## Create a New Spoken Sequence
 1. `Content Browser > Create > Miscellaneous > Data Asset > Spoken Sequence`
 2. Set sound asset if available. Otherwise set `DurationIfNoSound`.
