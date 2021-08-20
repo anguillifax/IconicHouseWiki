@@ -9,3 +9,5 @@
 7. Write in the transcript for the voiceover.
 
 **Tip:** Open the voiceover in a sound editor (like Audacity) and scrub through it for the `BeginAt` timestamps.
+
+I know the interface is really clunky. I'm really sorry, there's not much I can do about it! Bear with it, we can persevere!! 🙏 
