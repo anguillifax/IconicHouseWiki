@@ -1,17 +1,13 @@
 # Dynamic Props
 
-## Comments
+A dynamic prop is a prop that responds to mouse clicks and can be interacted with.
 
-Add a `CommentInteraction` component to the actor. Specify what dialogue asset to trigger.
+# Structure
 
-## Interactions
+Base components are `UseHandler`, `ListenHandler`, and `AnyInteractionHandler`. Use the callbacks for highly specialized implementations.
 
-### Examine
+# Common Cases
 
-Add a `ExamineInteraction` component to the actor.
+**Comment:** Add a `SingleCommentInteraction` to the actor. Assign the dialogue asset.
 
-### Custom
-
-Add a `DelegateInteraction` component to the actor. Bind to the `OnInteract` delegate to respond to the click event.
-
-Set custom tooltip to improve usability.
+**Quest Task Completion Trigger:** Add a `QuestCompletionInteraction` to the actor. Assign the quest and associated task to mark complete.
