@@ -17,6 +17,13 @@ Keep in mind that all quests initially start hidden.
 
 These are the general instructions of how to use the system. Ask someone knowledgeable about Unreal on what this looks like in blueprints.
 
-1. Add the component `RevealQuestUtil`.
+1. Look in the Components panel of the actor. Press the button Add Component and add a `RevealQuestUtil` component.
 1. Look in the details panel for the section `Default/Quest`. Assign the quest you want to show to the component.
 1. Call the function `RevealQuest` on the component you just added.
+
+## Fulfilling a Task
+
+Each quest is composed of tasks. Once all tasks are fulfilled, the quest is marked as complete. This section explains how to fulfill a task.
+
+1. Find the actor the player should click on to fulfill the task.
+1. Add the component 
