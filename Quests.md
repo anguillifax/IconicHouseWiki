@@ -28,4 +28,5 @@ Each quest is composed of tasks. Once all tasks are fulfilled, the quest is mark
 1. Find the actor the player should click on to fulfill the task.
 1. Look in the Components panel of the actor. Press the button Add Component and add a `FulfillQuestTaskUtil` component.
 1. Look in the details panel. Find the section `Default`. You will need two pieces of information, the quest the task is part of and the task itself.
-1. Assign the property `Quest`
+1. Assign the property `Quest` to the asset you created.
+1. Find the unique id of the task you want to fulfill. You may have to open the quest asset itself and search for it. Type this into the field `Task`.
