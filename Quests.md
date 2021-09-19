@@ -26,4 +26,6 @@ These are the general instructions of how to use the system. Ask someone knowled
 Each quest is composed of tasks. Once all tasks are fulfilled, the quest is marked as complete. This section explains how to fulfill a task.
 
 1. Find the actor the player should click on to fulfill the task.
-1. Add the component 
+1. Look in the Components panel of the actor. Press the button Add Component and add a `FulfillQuestTaskUtil` component.
+1. Look in the details panel. Find the section `Default`. You will need two pieces of information, the quest the task is part of and the task itself.
+1. Assign the property `Quest`
