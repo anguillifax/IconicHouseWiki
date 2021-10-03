@@ -7,6 +7,7 @@ Photo Mode is based on teleporting the player to the right spot.
 1. First we need to indicate to the system that the object you are looking at is a memory trigger. Add the component `PhotoModeTarget` to the actor.
 1. Next we need to tell the system where to teleport the player once they click on it. You can technically use any actor to do this, but we recommend creating a new PlayerStart each time since it has the friendliest interface. Position this PlayerStart where you want the player to land after clicking the memory.
 1. Finally, we need to tell the memory trigger which object to teleport the player to. Go back to the memory trigger actor. Select the `PhotoModeTarget` component and assign the field `Warp Target` to the PlayerStart you just created.
+1. We can tell the system to either display "Enter Memory" or "Exit Memory" when the player hovers over the object. To change which one is shown, in the details panel, search for `Is Enter`. If this is true, "Enter Memory" is shown. If false, "Exit Memory" is shown.
 
 ## Using the `Main` Tag
 
