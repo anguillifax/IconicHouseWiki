@@ -10,4 +10,8 @@ Photo Mode is based on teleporting the player to the right spot.
 
 ## Using the `Main` Tag
 
-Because we are using multiple player starts, Unreal will assume we want to randomly place the player into a different place each time we start the game. To prevent this, there is a special tag called `Main`. Assign this tag to the player start that you want the player to begin the game at every time.
+Because we are using multiple player starts, Unreal will assume we want to randomly place the player into a different place each time we start the game. To prevent this, there is a special tag called `Main`.
+
+1. Select the PlayerStart you want the player to begin the game at every time.
+1. In the details panel, search for `Object > Player Start Tag`.
+1. Set this to `Main`.
