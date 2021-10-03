@@ -20,7 +20,7 @@ Because we are using multiple player starts, Unreal will assume we want to rando
 
 The PhotoMode look is a combination of a postprocessing volume and UI widget. Both of these can be edited freely.
 
-To edit the postprocessing volume, open the asset `OverworldPlayerCharacter`. Find the component `PostProcess`. This postprocessing volume is toggled on and off when moving between Photo Mode. Any visual settings in the details panel can be edited freely.
+To edit the postprocessing volume, open the asset `OverworldPlayerCharacter`. In the components tab, look for the component called `PostProcess`. Click on this component. Look in the Details panel. This postprocessing volume is toggled on and off when moving between Photo Mode. Any visual settings in the details panel can be edited freely.
 
 To edit the UI, open the asset `Implementation > PhotoMode > PhotoModeFrame`. This widget is nested inside the player HUD and toggled on and off when moving between Photo Mode. This widget can be edited in any way, shape, or form freely.
 
